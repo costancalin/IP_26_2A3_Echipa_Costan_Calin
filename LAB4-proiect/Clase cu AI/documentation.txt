@@ -1,0 +1,20 @@
+1. Faza de Generare: Cum a procesat AI-ul cerințele
+Preluarea constrângerilor (Guardrails): Am respectat cu strictețe numele variabilelor și ale metodelor dictate de tine. Acest lucru a asigurat compatibilitatea cu eventualele cerințe specifice ale proiectului (ex: cerințele unui profesor sau ale unei arhitecturi predefinite).
+
+Generarea logicii complexe: Pentru cerințele [EXTREM DE COMPLEXĂ], am aplicat soluții standardizate din industrie (ex: Fisher-Yates pentru shuffle eficient O(n), logica de penalizare progresivă pentru anti-cheating, managementul memoriei în liste pentru notificări).
+
+Extinderea modulară: Când ai cerut metode suplimentare, AI-ul a analizat starea (variabilele) din fiecare clasă și a generat funcționalități medii care folosesc exact acele date (ex: funcții de formatare a textului, resetare de sesiune, validare SMTP).
+
+2. Faza de Inginerie a Prompt-urilor: Cum m-au ajutat instrucțiunile tale
+Arhitectura clară: Faptul că mi-ai dat o structură de clase rigidă a permis AI-ului să se concentreze pe conținut (logica metodelor), nu pe formă (design-ul claselor).
+
+Contextul general: Cunoașterea proiectului (EduConnect) a dat sens comentariilor și naming-ului din testele din metoda main.
+
+Feedback vizual (Imaginea IDE-ului): Încărcarea screenshot-ului cu eroarea a fost un pas excelent de "prompting". A permis AI-ului să facă tranziția de la "generator de cod" la "asistent de debugging", analizând nu doar sintaxa, ci și comportamentul mediului tău de dezvoltare (IDE).
+
+3. Faza de Integrare: Limitele AI și Rolul Programatorului (Omului)
+Această etapă (eroarea din IDE) demonstrează perfect de ce AI-ul este un copilot, nu un înlocuitor:
+
+AI-ul generează logica pură: Eu îți scriu algoritmii și clasele respectând principiile programării orientate pe obiect (OOP).
+
+Programatorul gestionează ecosistemul: Java are reguli stricte de compilare legate de sistemul de operare și fisiere (ex: o clasă publică = un fișier). Oricât de corect este codul generat de AI, el trebuie integrat corect de către om în structura proiectului (crearea fișierelor corespunzătoare).
